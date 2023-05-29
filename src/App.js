@@ -10,8 +10,6 @@ import './App.css';
 import { useStateContext } from './contexts/ContextProvider';
 import { Edit } from '@syncfusion/ej2-react-grids';
 
-import (useStateContext)
-
 const App = () => {
   const { activeMenu } = useStateContext();
   
